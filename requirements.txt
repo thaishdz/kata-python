@@ -1,0 +1,1 @@
+pytest==8.0.0  #ttps://github.com/pytest-dev/pytest
