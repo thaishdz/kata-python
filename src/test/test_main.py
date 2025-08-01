@@ -4,8 +4,8 @@ from src.main import Rover
 
 
 def test_rover_init():
-    rover = Rover()
-    assert rover.position_x == 0
+    rover = Rover(2,0,'N')
+    assert rover.position_x == 2
     assert rover.position_y == 0
     assert rover.orientation == 'N'
 
